@@ -47,14 +47,14 @@ class Node extends EventEmitter {
      * @type {string}
      */
     get URL() {
-        return `http://${this.host}:${this.port}`
+        return `https://${this.host}:${this.port}`
     }
 
     /**
      * @type {string}
      */
     get WS_URL() {
-        return `ws://${this.host}:${this.port}/ws`
+        return `wss://${this.host}:${this.port}/ws`
     }
 
     /**
