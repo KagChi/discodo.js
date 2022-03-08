@@ -1,6 +1,6 @@
 const fetch = require("node-fetch")
 const { ensureQueueObjectType } = require("./models.js")
-const { Agent } = require("http")
+const { Agent } = require("https")
 const { inspect } = require("util")
 
 class HTTPClient {
